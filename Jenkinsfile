@@ -20,5 +20,12 @@ pipeline {
         }   
        }
     }
+    stage('Docker Build and Push'){
+      steps {
+        sh 'printenv'
+        sh 'docker build -t shlok36/numeric-app:""$GIT_COMMIT"" .'
+        sh 'docker push shlok36/numeric-app:""$GIT_COMMIT"" .'
+      }
+    }
 }
 }
