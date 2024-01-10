@@ -79,8 +79,9 @@
 					<mutationThreshold>70</mutationThreshold>
 					<outputFormats>
 						<outputFormat>XML</outputFormat>
-					</outputFormat>HTML</outputFormat>
+					<outputFormat>HTML</outputFormat>
 					</outputFomats>
+					
 						<configuration>
 						</plugin>
 			
