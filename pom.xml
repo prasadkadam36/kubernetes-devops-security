@@ -82,7 +82,7 @@
 					<outputFormat>HTML</outputFormat>
 					</outputFormats>
 					
-						<configuration>
+				</configuration>
 						</plugin>
 			
 		</plugins>
